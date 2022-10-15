@@ -1,0 +1,21 @@
+{
+  "name": "ipfs-cluster-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "ipfs-cluster-deploy": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "cids": "^1.1.9",
+    "dotenv": "^16.0.3",
+    "form-data": "^4.0.0",
+    "ipfs-http-client": "^50.1.0"
+  }
+}
